@@ -1,0 +1,37 @@
+<tag> -> como criar uma tag
+tags:
+<h1> </h1>-> título
+<p> </p>-> parágrafo
+<strong>Barbearia</strong> -> pra deixar a palavra em destaque, dar importância ao conteúdo, negrito
+<em></em> -> pra deixar o texto em itálico
+
+Class2
+<!DOCTYPE html> -> dizendo ao navegador q estamos usando a última versão do html (tag de informação, ñ precisa ser fechada)
+<html> </html> -> tag de conteúdo, pra estruturar o HTML
+<meta charset="UTF-8"> -> tag que passa informação pra a página, escolhemos o dicionário UTF code
+
+<html lang="pt-br"> -> informando o idioma da página, no início da página
+<title>Barbearia Aluna</title> -> pra o título da página
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+Para criar a estrutura do site:
+
+    <head> </head> -> informações que queremos passa o navegador(nome da ágina, etc)
+    <body> -> informações que queremos exibir na página
+        
+    </body>
+
+Nesta aula, aprendemos:
+
+A definir a estrutura básica do HTML
+Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+A tag <html>, que marca o conteúdo a ser renderizado no navegador
+Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+Como passar as informações do encoding da nossa página para o navegador, através da tag <meta> e da propriedade charset
+Como definir o título de uma página, através da tag <title>
+Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
+Como separar o conteúdo da página, utilizando a tag <body>
+
+CSS

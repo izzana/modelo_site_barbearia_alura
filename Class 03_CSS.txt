@@ -1,0 +1,99 @@
+<p style="font-size: 20px;"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p> -> definindo o tamanho da fonte
+ <h1 style="text-align: ;">Sobre a Barbearia Alura</h1> -> pra colocar o alinhamento de texto
+
+  <p style="font-size: 20px; text-align: center">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, 
+        garantindo qualidade e satisfação dos nossos clientes.</p> 
+
+É necessário referenciar o arquivo style.css no head do index.html, como mostra o código acima.
+Link do CSS no head
+Para utilizar a estilização do arquivo style.css no index.html, precisamos incluir no head o seguinte código:
+
+ <link rel="stylesheet" href="style.css">COPIAR CÓDIGO
+Veja o código completo do index.html com o style.css:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+</body>
+</html>C
+
+
+CSS inline -> usado para definir nosso CSS linha por linha
+
+Pra mudar em todos os parágrafos e deixar alinhado (fica no head, no arquivo html)
+<style>
+        p{
+            text-align: center
+        }
+    </style>
+
+Dentro do arquivo html
+        //folhas de arquivo
+<link rel="stylesheet" href="style.css"> -> pra linkar meu arquivo externo (css) dentro do html -> posso adicionar á várias páginas de html, é só linkar o css no arquivo html
+                    //endereço de referência
+
+Dentro do arquivo CSS:
+Para mudar tudo no corpo do texto
+body{
+    background: #CCCCCC;
+    font-size: 30px;
+}
+
+Tudo que está com a tag strong será estilizado
+strong{
+    color: red;
+}
+
+Para ser em apenas um strong, selecioanr especificamente:
+vai procurar a linha q tem o em e o strong
+
+em strong{
+    color: red;
+}
+
+Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho.
+
+Cores hexadecimais
+RGB = Red Green Blue
+# __ __ __ 2 pra o vermelho, 2 pra o verde e 2 pra o azul
+0: ausência de corpo
+F = máximo
+#FFFFFF -> branco
+#FF0000 -> vermelho
+
+RGB 0 ao 255
+rgb(255,255,255) -> vermelho
+
+Nesta aula, aprendemos:
+
+A mexer na apresentação dos textos
+No alinhamento deles (text-align)
+No tamanho da fonte (font-size)
+Na cor de fundo (background)
+Na cor do texto (color)
+CSS inline
+Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
+A tag <style>
+Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+A apresentação do CSS com um arquivo externo
+Como funciona o estilo em cascata do CSS
+Como importar um arquivo externo de CSS dentro da nossa página HTML
+Como representar cores no CSS
+Através do nome da cor
+Através do seu hexadecimal
+Através do seu RGB
+
+Dentro do <head>
+<a
+       href="https://www.youtube.com/watch?v=mfTiVi_vTY4"
+       target="_blank">Link do Desenho</a> pra abiri o link em outra aba
+
+<a
+       href="https://www.youtube.com/watch?v=mfTiVi_vTY4"
+       target="_self">Link do Desenho</a>  pra abrir o site na msm aba

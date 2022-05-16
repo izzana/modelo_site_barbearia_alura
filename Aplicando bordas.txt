@@ -1,0 +1,2 @@
+Todos os elementos no CSS conseguimos colocar bordas
+ border: 2px solid #000000 -> criando uma borda

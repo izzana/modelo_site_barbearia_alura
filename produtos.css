@@ -1,0 +1,93 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0; /*20px pra cima e pra baixo e 0 pra direita e esquerda. Espaçamento */
+}
+
+.caixa {
+    position: relative;
+    width: 940px; /*largura padrão*/
+    margin: 0 auto;  /*definindo o topo e em baixo como 0 e a direita e esquerda como 0 o alinhamento*/   
+}
+
+nav {
+    position: absolute; /* para mudarmos o ponto inicial*/
+    top: 110px; /* para ficar no centro da posição */
+    right: 0;
+}
+nav li {/* cada item*/
+    display: inline;
+    margin: 0 0 0 15px; /* cada número representa uma direção: topo,  direita, baixo, esquerda*/
+}
+
+nav a { /*mudanças no que está nas anchor tags*/
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold; 
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px 0;
+}
+
+.produtos li { /*cada item da minha lista*/
+    display: inline-block;
+    text-align: center;
+    width: 30%; /*estou distribuindo cada item da lista mais igualmente*/
+    vertical-align: top;
+    margin: 0 1.5%; /*margem externa, dêmos pra cada lado*/
+    padding: 30px 20px;/*espaçamento interno*/
+    box-sizing: border-box;/*colocando isso eu vou dizer que os 30% do width são definitivos e os 20px do padding estão dentro desses 30%*/
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid; 
+    */
+    border: 2px solid #000000; /*forma simplificada de criar uma borda*/
+    border-radius: 10px 20px 30px 40px; /*declarando pixel para cada borda*/
+}
+
+
+nav a:hover { /*comportamento que quero mapear, quando o mouse estiver por cima dos links dentro do menu de navegação*/
+    color: pink;
+    text-decoration: underline;
+} /*esses estilos serão aplicados quando eu estiver com o mouse em cima dos meus links de navegação*/
+
+.produtos li:hover {
+    border-color: pink; /*vai mudar a cor quando o mouse passar por cima */
+}
+.produtos li:active { /*pra quando o mouse está clicado o elemento*/
+    border-color: blueviolet;
+}
+
+.produtos li:hover h2{/*quando eu passar o mouse por cima do que está no meu h2 as letras irão aumentar*/
+    font-size: 34px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px 0 0; /*ou margin: 10px 0 0;*/
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");/*no footer no html colocamos uma imagem que terá como fundo outra imagem, então adcionamos essa imagem no CSS usando o url("")*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0; /*colocando margem superior*/
+}
