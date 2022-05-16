@@ -1,0 +1,23 @@
+Comportamentos da nossa página
+
+a:hover /*hover -> comportamento que quero mapear*/
+
+nav a:hover{ /*comportamento que quero mapear, quando o mouse estiver por cima dos links dentro do menu de navegação*/
+    color: pink;
+    text-decoration: underline;
+} /*esses estilos serão aplicados quando eu estiver com o mouse em cima dos meus links de navegação*/
+
+ No hover, mapeamos o comportamento do mouse por cima do elemento, e podemos usar isso para destacar visualmente o elemento em questão.
+
+ Algumas pseudo-classes CSS
+hover, quando o usuário passa o cursor sobre o elemento
+active, quando um elemento está sendo ativado pelo usuário
+A mudar a cor do texto e/ou da borda de um elemento, quando o usuário passar o cursor sobre o mesmo
+A mudar a cor da borda de um elemento, quando o mesmo estiver sendo ativado pelo usuário
+footer {
+    text-align: center;
+    background: url("bg.jpg");/*no footer no html colocamos uma imagem que terá como fundo outra imagem, então adcionamos essa imagem no CSS usando o url("")*/
+}
+
+Linguagem unicode: Tem vários caractéres diferentes
+unicodetable.com -> para olhar todos os caracteres
